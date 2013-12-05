@@ -1,3 +1,64 @@
-// Place all the styles related to the Users controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+
+background-color:#b0c4de;
+margin:50px 0px; padding:0px;
+text-align:center;
+
+
+}
+
+h1{
+
+padding-bottom:50px;
+font-size:3em;
+color:#2B1B17;
+
+
+}
+
+body a{
+
+
+
+text-decoration:none;
+font: bold 11px Arial;
+width: 60px;
+height: 15px;
+background: #C6DEFF;
+padding: 5px;
+text-align: center;
+border-radius: 3px;
+color: white;
+font-weight: bold;
+
+}
+
+td{
+
+padding:10px;
+text-align:center;
+
+
+}
+
+table{
+
+border: solid black 1px;
+width:700px;
+margin:0px auto;
+text-align:left;
+padding:15px;
+
+}
+
+th{
+
+border-bottom: solid black 1px;
+text-align:center;
+
+
+}
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
